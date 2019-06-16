@@ -17,8 +17,9 @@ broken code:
 ```js
 let a = 1:
 ```
-error message: Uncaught SyntaxError: Unexpected token :
+error message: 
 ```
+Uncaught SyntaxError: Unexpected token :
 ```
 classification:
 * creation phase?
