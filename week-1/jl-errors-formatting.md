@@ -17,17 +17,17 @@ broken code:
 ```js
 let a = 1:
 ```
-error message:
+error message: Uncaught SyntaxError: Unexpected token :
 ```
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase?
+* syntax  ?
 
-the fix:
+the fix: : let a = 1;
 ```js
 ```
-your notes:
+your notes:  We should use semicolon to at the end, not a colon.
 
 [TOP](#formatting-errors)
 
