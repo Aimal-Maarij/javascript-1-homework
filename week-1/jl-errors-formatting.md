@@ -25,8 +25,9 @@ classification:
 * creation phase?
 * syntax  ?
 
-the fix: : let a = 1;
+the fix: : 
 ```js
+let a = 1;
 ```
 your notes:  We should use semicolon to at the end, not a colon.
 
