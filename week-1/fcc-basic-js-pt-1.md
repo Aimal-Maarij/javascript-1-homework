@@ -268,13 +268,123 @@ function fun1(a) {
 ## 49. Local Scope and Functions
 ```js
 ```
-## 50.
+## 50. Local Scope and Functions
 ```js
 function myLocalScope() {
-  var myVar = 'use strict'; 
-  
+  'use strict'; 
+  var myVar = "Aimal";
   console.log(myVar);
 }
 myLocalScope();
+```
+
+## 51. Global vs. Local Scope in Functions
+```js
+
+var outerWear = "T-Shirt";
+
+function myOutfit() {
+  var outerWear = "sweater";
+  return outerWear;
+}
+
+myOutfit();
+```
+## 52. Return a Value from a Function with Return
+```js
+function timesFive (num){
+  return num * 5;
+}
+console.log(timesFive(4));
+
+timesFive();
+```
+## 53. Understanding Undefined Value returned from a Function
+```js
+function addFive (){
+  sum = sum + 5;
+}
+```
+## 54. Assignment with a Returned Value
+```js
+var processed = 0;
+
+function processArg(num) {
+  return (num + 3) / 5;
+}
+
+processed = processArg(7);
+
+console.log(processed);
+```
+## 55. Stand in Line
+```js
+function nextInLine(arr, item) {
+  arr.push(item);
+  return arr.shift();
+  return item;  // Change this line
+}
+```
+## 56. Understanding Boolean Values
+```js
+function welcomeToBooleans() {
+return true; 
+}
+
+```
+## 57. Use Conditional Logic with If Statements
+```js
+function trueOrFalse(wasThatTrue) {
+   if (wasThatTrue) {
+       return "Yes, that was true";
+   }
+       return "No, that was false";
+}
+
+trueOrFalse(true);
+```
+## 58. Comparison with the Equality Operator
+```js
+function testEqual(val) {
+  if (val==12) { 
+    return "Equal";
+  }
+  return "Not Equal";
+}
+testEqual(12);
+```
+## 59. Comparison with the Strict Equality Operator
+```js
+function testStrict(val) {
+  if (val===7) { 
+    return "Equal";
+  }
+  return "Not Equal";
+}
+testStrict(7);
+```
+## 60. Practice comparing different values
+```js
+```
+## 61.
+```js
+```
+## 62.
+```js
+```
+## 63.
+```js
+```
+## 64.
+```js
+```
+## 65.
+```js
+```
+## 66.
+```js
+```
+## 67.
+```js
 ```
 
