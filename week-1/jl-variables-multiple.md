@@ -26,7 +26,8 @@ These exercises will help you practice multiple assignments on one line:
 ```js
 b2=a
 a=b1
-b1=b2```
+b1=b2
+```
 * [the second](http://www.pythontutor.com/live.html#code=var%20a%20%3D%20'c'%3B%0Avar%20b1%20%3D%20'a',%20b2%20%3D%20'a'%3B%0Avar%20c1%20%3D%20'b',%20c2,%20c3%3B%0Ac2%20%3D%20'b',%20c3%20%3D%20'b'%3B%0Avar%20_%20%3D%20''%3B%0A%0A//%20---%20can%20be%20done%20in%204%20lines%20---&cumulative=false&curInstr=5&heapPrimitives=nevernest&mode=display&origin=opt-live.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false)
 ```js
 _= c3
@@ -50,7 +51,8 @@ b2=_ , b1=b2
 ### exercises
 * [basic swap](http://www.pythontutor.com/live.html#code=var%20a%20%3D%20'b',%20b%20%3D%20'a'%3B%0Avar%20_%20%3D%20''%3B%0A%0A//%20---%20solve%20this%20in%20one%20line%20---&cumulative=false&curInstr=2&heapPrimitives=nevernest&mode=display&origin=opt-live.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false)
 ```js
-_=b , b=a , a=_```
+_=b , b=a , a=_
+```
 * [double swap - two lines](http://www.pythontutor.com/live.html#code=var%20a,%20b,%20c%3B%0Aa%20%3D%20'b',%20b%20%3D%20'c',%20c%20%3D%20'a'%3B%0Avar%20_%20%3D%20''%3B%0A%0A//%20---%20solve%20this%20in%202%20lines%20---&cumulative=false&curInstr=3&heapPrimitives=nevernest&mode=display&origin=opt-live.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false)
 ```js
 _=c , c=b
