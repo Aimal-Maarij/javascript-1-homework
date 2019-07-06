@@ -23,15 +23,22 @@ let result = getNine();
 ```
 error message:
 ```
+Uncaught SyntaxError: Unexpected token '{'
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase or execution phase => Creation Phase
+* syntax or semanitc => Syntax
 
 the fix:
 ```js
+function getNine {
+  let x = 6;
+  let y = 3;
+  return x + y;
+}
+let result = getNine();
 ```
-your notes:
+your notes: To create a funtion we need to write parentheses for arguments after funtion name. 
 
 [TOP](#function-errors)
 
@@ -46,15 +53,19 @@ array.length()
 ```
 error message:
 ```
+Uncaught TypeError: array.length is not a function
+    
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase or execution phase => Execution
+* syntax or semanitc = > Syntax
 
 the fix:
 ```js
+let array = [];
+console.log(array.length);
 ```
-your notes:
+your notes: We use length for showing the lenghth of viariable (array), and it is not a fuction.
 
 
 
