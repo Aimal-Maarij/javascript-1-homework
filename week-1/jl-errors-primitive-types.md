@@ -20,15 +20,19 @@ two lines';
 ```
 error message:
 ```
+Uncaught SyntaxError: Invalid or unexpected token
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase or execution phase => Creation Phase
+* syntax or semanitc => Syntax
 
 the fix:
 ```js
+let a = 'this is \ntwo lines';
+or
+let a = 'this is <br> lines';
 ```
-your notes:
+your notes: Link that explains how lines and space works in java and browers: https://www.youtube.com/watch?v=En5M0Z_3dq8
 
 [TOP](#primitive-type-errors)
 
@@ -42,15 +46,18 @@ let innerHtml = "<p>Click here to <a href="#Home">return home</a></p>";
 ```
 error message:
 ```
+Uncaught SyntaxError: Unexpected identifier
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase or execution phase => Creation Phase
+* syntax or semanitc => Syntax
 
 the fix:
 ```js
+let innerHtml = "<p>Click here to <a href=\"#Home\">return home</a></p>";
+
 ```
-your notes:
+your notes: To included quotation marks in a string we need to add backlash befor each and every Quotation marks.
 
 [TOP](#errors)
 
@@ -64,15 +71,19 @@ let nested_messages = 'remind yourself ''i can do this!'' at least once a day';
 ```
 error message:
 ```
+Uncaught SyntaxError: Unexpected string
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase or execution phase => Creation Phase
+* syntax or semanitc => Syntax
 
 the fix:
 ```js
+'remind yourself '+'i can do this!'+' at least once a day';
+or
+let nested_messages = "'remind yourself ''i can do this!'' at least once a day'";
 ```
-your notes:
+your notes: 
 
 [TOP](#primitive-type-errors)
 
