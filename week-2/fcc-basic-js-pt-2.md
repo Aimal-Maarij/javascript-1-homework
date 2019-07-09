@@ -218,29 +218,149 @@ var secondTree = myPlants[1].list[1]; // Change this line
 ```
 ## 93. Record Collection
 ```js
+// Setup
+var collection = {
+    "2548": {
+      "album": "Slippery When Wet",
+      "artist": "Bon Jovi",
+      "tracks": [ 
+        "Let It Rock", 
+        "You Give Love a Bad Name" 
+      ]
+    },
+    "2468": {
+      "album": "1999",
+      "artist": "Prince",
+      "tracks": [ 
+        "1999", 
+        "Little Red Corvette" 
+      ]
+    },
+    "1245": {
+      "artist": "Robert Palmer",
+      "tracks": [ ]
+    },
+    "5439": {
+      "album": "ABBA Gold"
+    }
+};
+// Keep a copy of the collection for tests
+var collectionCopy = JSON.parse(JSON.stringify(collection));
+
+// Only change code below this line
+function updateRecords(id, prop, value) {
+  if(!value){
+    delete collection[id][prop];
+    return collection;
+  }
+  if(prop !== "tracks" && value) {
+    collection[id][prop] = value;
+  }
+
+  else{
+   if(!collection[id].hasOwnProperty("tracks"))
+      collection[id].tracks = [];
+      collection[id].tracks.push(value);
+  }
+    
+  
+  return collection;
+}
+
+// Alter values below to test your code
+updateRecords(2468, "track", "free");
 
 ```
-## 94. 
+## 94. Iterate with JavaScript While Loops
 ```js
+// Setup
+var myArray = [];
 
+
+// Only change code below this line.
+
+var i = 0;
+while(i < 5){
+myArray.push(i)
+i = i + 1;
+}
 ```
-## 95. 
+## 95. Iterate with JavaScript For Loops
 ```js
+// Example
+var ourArray = [];
 
+for (var i = 0; i < 5; i++) {
+  ourArray.push(i);
+}
+
+// Setup
+var myArray = [];
+
+// Only change code below this line.
+for (var i = 1; i < 6; i++){
+    myArray.push(i);
+
+}
 ```
-## 96. 
+## 96. Iterate Odd Numbers With a For Loop
 ```js
+// Example
+var ourArray = [];
 
+for (var i = 0; i < 10; i += 2) {
+  ourArray.push(i);
+}
+
+// Setup
+var myArray = [];
+
+// Only change code below this line.
+for(var i = 1; i < 10; i += 2){
+  myArray.push(i);
+}
 ```
-## 97. 
+## 97. Count Backwards With a For Loop
 ```js
+// Example
+var ourArray = [];
+
+for (var i = 10; i > 0; i -= 2) {
+  ourArray.push(i);
+}
+
+// Setup
+var myArray = [];
+
+// Only change code below this line.
+for(var i=9; i > 0; i -= 2){
+myArray.push(i);
+}
 
 ```
-## 98. 
+## 98. Iterate Through an Array with a For Loop
 ```js
+// Example
+var ourArr = [ 9, 10, 11, 12];
+var ourTotal = 0;
+
+for (var i = 0; i < ourArr.length; i++) {
+  ourTotal += ourArr[i];
+}
+
+// Setup
+var myArr = [ 2, 3, 4, 5, 6];
+
+
+// Only change code below this line
+
+var total=0;
+for(var i=0; i < myArr.length; i++){
+total += myArr[i];
+}
 
 ```
-## 99. 
+## 99. Nesting For Loops
 ```js
 
 ```
