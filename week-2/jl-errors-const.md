@@ -20,15 +20,17 @@ const = 5;
 ```
 error message:
 ```js
+Unexpected token
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase
+* syntax 
 
 the fix:
 ```js
+const num = 5;
 ```
-your notes:
+your notes: We must declear a variable befor assign a data to it.
 
 [TOP](#variable-errors)
 
@@ -44,15 +46,18 @@ a = 0;
 ```
 error message:
 ```
+Uncaught TypeError: Assignment to constant variable.
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* execution phase ?
+* semanitc ?
 
 the fix:
 ```js
+var a = 9;
+a=0;
 ```
-your notes:
+your notes: const created a fixed variable. Once a vairable is declared and a data is assigned to it then it cannot be changeg.
 
 [TOP](#variable-errors)
 
@@ -68,15 +73,17 @@ a = 0;
 ```
 error message:
 ```
+Uncaught SyntaxError: Missing initializer in const declaration
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase 
+* syntax ?
 
 the fix:
 ```js
+const a = 0;
 ```
-your notes:
+your notes: const declaration and assignment procces should at the same time/same line.
 
 [TOP](#variable-errors)
 
