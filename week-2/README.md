@@ -4,7 +4,7 @@
 | --- | --- | --- | --- | --- |
 | :seedling: __[fcc: finish js basics](./fcc-basic-js-pt-2.md) |:white_check_mark: | Profile checkup was a difficult one | | |
 | :dash: __[janke: tracing conditionals](./jl-tracing-conditionals.md) | | | | |
-| :seedling: __[javascript.info: loops](./jsinfo-loops.md) |:wavy_dash: | | | |
+| :seedling: __[javascript.info: loops](./jsinfo-loops.md) |:white_check_mark: | | | |
 | :dash: __[janke: loop refactors](./jl-loop-refactors.md) | | | | |
 | :seedling: __[fcc: data structures](./fcc-data-structures.md) |:wavy_dash: | | | |
 | :seedling: __[janke: errors const](./jl-errors-const.md) |:wavy_dash: | | | |
