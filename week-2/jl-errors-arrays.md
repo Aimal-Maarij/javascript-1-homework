@@ -19,15 +19,17 @@ let myArray = [1, 2, 3;
 ```
 error message:
 ```
+Uncaught SyntaxError: Unexpected token ;
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase 
+* syntax 
 
 the fix:
 ```js
+let myArray = [1, 2, 3;]
 ```
-your notes:
+your notes: The closing square bracket was missing.
 
 [TOP](#array-errors)
 
@@ -41,15 +43,17 @@ let myArray = [1, 2 3];
 ```
 error message:
 ```
+Uncaught SyntaxError: Unexpected number
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase
+* syntax 
 
 the fix:
 ```js
+let myArray = [1, 2, 3];
 ```
-your notes:
+your notes: Each element in an array must be separate by using a comma.
 
 [TOP](#array-errors)
 
@@ -67,15 +71,21 @@ let myArray = [
 ```
 error message:
 ```
+Uncaught TypeError: Cannot read property '9' of undefined
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase 
+* syntax 
 
 the fix:
 ```js
+let myArray = [
+                [1, 2, 3],
+                [4, 5, 6],
+                [7, 8, 9]
+              ];
 ```
-your notes:
+your notes: We must to use comma to separate each nested arrays in the parrent/main array.
 
 [TOP](#array-errors)
 
