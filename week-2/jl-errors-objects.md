@@ -19,15 +19,19 @@ let b = a.b.3
 ```
 error message:
 ```
+Uncaught SyntaxError: Unexpected number
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase 
+* syntax 
 
 the fix:
 ```js
+let a = {b:3};
+let b = a.b // or let b= a[b]
+  
 ```
-your notes:
+your notes: we use .key or [key] to access to an element of the object. 
 
 [TOP](#object-errors)
 
@@ -41,15 +45,18 @@ let y = b.e;
 ```
 error message:
 ```
+Uncaught ReferenceError: b is not defined
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* execution phase ?
+* semanitc ?
 
 the fix:
 ```js
+let x = {b:'e'};
+let y = x.b;
 ```
-your notes:
+your notes: e is the value stored in key (b). We must use the key to access that the value of it and then we assigne to another viriable.
 
 [TOP](#object-errors)
 
