@@ -4,13 +4,13 @@
 | --- | --- | --- | --- | --- |
 | :seedling: __[fcc: finish js basics](./fcc-basic-js-pt-2.md) |:white_check_mark: | Profile checkup was a difficult one | | |
 | :dash: __[janke: tracing conditionals](./jl-tracing-conditionals.md) | | | | |
-| :seedling: __[javascript.info: loops](./jsinfo-loops.md) | | | | |
+| :seedling: __[javascript.info: loops](./jsinfo-loops.md) |:wavy_dash: | | | |
 | :dash: __[janke: loop refactors](./jl-loop-refactors.md) | | | | |
-| :seedling: __[fcc: data structures](./fcc-data-structures.md) | | | | |
-| :seedling: __[janke: errors const](./jl-errors-const.md) | | | | |
-| :seedling: __[janke: errors arrays](./jl-errors-arrays.md) | | | | |
-| :seedling: __[janke: errors objects](./jl-errors-objects.md) | | | | |
-| :seedling: __[javascript.info: objects](./jsinfo-objects.md) | | | | |
+| :seedling: __[fcc: data structures](./fcc-data-structures.md) |:wavy_dash: | | | |
+| :seedling: __[janke: errors const](./jl-errors-const.md) |:wavy_dash: | | | |
+| :seedling: __[janke: errors arrays](./jl-errors-arrays.md) |:wavy_dash: | | | |
+| :seedling: __[janke: errors objects](./jl-errors-objects.md) |:wavy_dash: | | | |
+| :seedling: __[javascript.info: objects](./jsinfo-objects.md) |:wavy_dash: | | | |
 | :dash: __[janke: reference types](./jl-reference-types.md) | | | | |
 | :fire: __[janke: ref-type arguments](./jl-functions-ref-type-args.md) | | | | |
 | :dash: __[janke: sentences w/o temps](./jl-variables-sentences-1.md) | | | | |
