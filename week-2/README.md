@@ -2,7 +2,7 @@
 
 |  | your Emoji | your comments | coach emoji | coach comments |
 | --- | --- | --- | --- | --- |
-| :seedling: __[fcc: finish js basics](./fcc-basic-js-pt-2.md) |:wavy_dash: |Almost done | | |
+| :seedling: __[fcc: finish js basics](./fcc-basic-js-pt-2.md) |:white_check_mark: | Profile checkup was a difficult one | | |
 | :dash: __[janke: tracing conditionals](./jl-tracing-conditionals.md) | | | | |
 | :seedling: __[javascript.info: loops](./jsinfo-loops.md) | | | | |
 | :dash: __[janke: loop refactors](./jl-loop-refactors.md) | | | | |
